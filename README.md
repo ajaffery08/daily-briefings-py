@@ -72,6 +72,11 @@ python -m app.daily_briefing
 # in production mode:
 APP_ENV="production" COUNTRY_CODE="US" ZIP_CODE="20057" python -m app.daily_briefing
 ```
+Running home_routes.py:
+
+```sh
+FLASK_APP=web_app flask run
+```
 
 
 ## Testing
